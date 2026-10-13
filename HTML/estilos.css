@@ -154,3 +154,63 @@ section img{
     top: 0;
     z-index: 10;
 }
+
+/* Estilos de la tabla de tecnologias */
+aside.principal table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 0.95em;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+aside.principal table th {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px;
+    font-weight: bold;
+}
+
+aside.principal table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #dddddd;
+    color: #333333;
+}
+
+/* Filas*/
+aside.principal table tbody tr:nth-of-type(even) {
+    background-color: #f8f9fa;
+}
+
+aside.principal table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* glosario (dl, dt, dd) */
+aside.principal dl {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+aside.principal dt {
+    font-size: 1.05em;
+    color: #2c3e50;
+    margin-top: 10px;
+}
+
+aside.principal dd {
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #555555;
+    line-height: 1.5;
+}
+
+/*video iframe en aside */
+aside iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+}
